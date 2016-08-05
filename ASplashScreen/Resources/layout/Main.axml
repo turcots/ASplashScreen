@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="left"
     android:background="@drawable/blueBackground">
     <Button
-        android:text="Jouer"
-        android:id="@+id/btnJouer"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content" />
-    <Button
-        android:text="Tutoriel"
-        android:id="@+id/btnTutoriel"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content" />
-    <Button
-        android:text="Progression"
-        android:id="@+id/btnProgression"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content" />
+        android:id="@+id/btnParametre"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:background="@drawable/parametres"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:text="Jouer"
+            android:id="@+id/btnJouer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Tutoriel"
+            android:id="@+id/btnTutoriel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Progression"
+            android:id="@+id/btnProgression"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 </LinearLayout>
