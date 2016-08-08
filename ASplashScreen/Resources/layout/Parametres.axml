@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:background="@drawable/blueBackground">
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:background="@drawable/leftArrow"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp" />
+</LinearLayout>

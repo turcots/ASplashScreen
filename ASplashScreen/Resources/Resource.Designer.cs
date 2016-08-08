@@ -61,6 +61,18 @@ namespace ASplashScreen
 			// aapt resource value: 0x7f040009
 			public const int abc_slide_out_top = 2130968585;
 			
+			// aapt resource value: 0x7f04000a
+			public const int Slide_out_left = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int Slide_out_right = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int Slide_to_left = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int Slide_to_right = 2130968589;
+			
 			static Animation()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1443,17 +1455,26 @@ namespace ASplashScreen
 			// aapt resource value: 0x7f02004b
 			public const int blueBackground = 2130837579;
 			
-			// aapt resource value: 0x7f02004f
-			public const int notification_template_icon_bg = 2130837583;
-			
 			// aapt resource value: 0x7f02004c
-			public const int parametres = 2130837580;
+			public const int button_style = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int splash_logo = 2130837581;
+			public const int leftArrow = 2130837581;
+			
+			// aapt resource value: 0x7f020052
+			public const int notification_template_icon_bg = 2130837586;
 			
 			// aapt resource value: 0x7f02004e
-			public const int splash_screen = 2130837582;
+			public const int parametres = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int parametres_in = 2130837583;
+			
+			// aapt resource value: 0x7f020050
+			public const int splash_logo = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int splash_screen = 2130837585;
 			
 			static Drawable()
 			{
@@ -1524,6 +1545,9 @@ namespace ASplashScreen
 			
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
+			
+			// aapt resource value: 0x7f0b0061
+			public const int btnBackToMenu = 2131427425;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int btnJouer = 2131427409;
@@ -1903,16 +1927,19 @@ namespace ASplashScreen
 			public const int notification_template_part_time = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int select_dialog_item_material = 2130903074;
+			public const int Parametres = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int select_dialog_multichoice_material = 2130903075;
+			public const int select_dialog_item_material = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int select_dialog_singlechoice_material = 2130903076;
+			public const int select_dialog_multichoice_material = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int support_simple_spinner_dropdown_item = 2130903077;
+			public const int select_dialog_singlechoice_material = 2130903077;
+			
+			// aapt resource value: 0x7f030026
+			public const int support_simple_spinner_dropdown_item = 2130903078;
 			
 			static Layout()
 			{
