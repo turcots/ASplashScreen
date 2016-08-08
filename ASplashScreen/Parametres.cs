@@ -22,6 +22,12 @@ namespace ASplashScreen
         {
             get { return FindViewById<Button>(Resource.Id.btnBackToMenu); }
         }
+
+        public Button BtnPopup
+        {
+            get { return FindViewById<Button>(Resource.Id.btnPopup); }
+        }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -32,8 +38,15 @@ namespace ASplashScreen
             SupportActionBar.Hide();
 
             BtnBackToMenu.Click += BtnBackToMenu_Click;
+            BtnPopup.Click += BtnPopup_Click;
         }
 
+        private void BtnPopup_Click(object sender, EventArgs e)
+        {
+            var alert = new Android.Support.V7.App.AlertDialog.Builder(this);
+            alert.SetView(LayoutInflater.Inflate(Resource.Layout.popup, null));
+            alert.Create().Show();
+        }
         private void BtnBackToMenu_Click(object sender, EventArgs e)
         {
             Intent intent;
